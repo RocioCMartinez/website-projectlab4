@@ -1,0 +1,18 @@
+/* external style sheet */
+
+body {
+    background-color: rgba(227, 41, 8, 0.511);
+}
+
+h1 {
+    color: #065535;
+}
+
+nav {
+    padding: 10px;
+    background-color: aquamarine;
+}
+
+li {
+    color: #065535;
+}
