@@ -58,7 +58,7 @@ document.write('Hi ' + theirName + ', lets be friends!');
 //     }
 
 
-function likePotato() {
+function likePotato(){
     let x = confirm('Ready to look at potatoes?');
     console.log(x);
     if (x == true) {
@@ -68,3 +68,15 @@ function likePotato() {
     }
 }
 
+
+
+
+function howHungry(){
+    let response = prompt('How hungry are you 1-5?');
+
+    console.log(response);
+
+    for (let i = 0; i< response; i++){
+        document.write("<img class='loop-img' src='frenchfries.jpg' alt='potato doggy' />");
+    }
+}
