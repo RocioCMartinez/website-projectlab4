@@ -4,17 +4,22 @@ body {
     background-color: rgba(227, 41, 8, 0.511);
 }
 
+* {border: 20px;
+}
+
+
 h1 {
     color: #065535;
     text-align: center;
 }
 
 nav {
-    display: inline-block;
+    border: 20cm;
 }
 
 li {
     color: #065535;
+    text-size-adjust: 20cm;
 }
 
 img {
@@ -25,6 +30,7 @@ img {
 
 p {
     color: black;
+    text-indent: 2cm;
 }
 
 a {
