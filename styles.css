@@ -8,6 +8,7 @@ h1 {
     color: #065535;
     text-align: center;
     text-size-adjust: 100cm;
+    background-color: lightpink;
 }
 
 nav ul li {
@@ -46,3 +47,5 @@ footer {
 ol {
     background-color: lightgreen;
 }
+
+/* must fix items that are not translating to website */
