@@ -7,9 +7,11 @@ const userName = prompt("What should we call you?");
 console. log (userName);
 
 function getName(){
-    const userName= prompt('What is your name');
+    const userName= prompt('What is your name?');
     return userName;
 }
+
+getName();
 
 function userMessage(userName){
     if (userName == ''){
@@ -19,31 +21,34 @@ function userMessage(userName){
     } else if ( userName == 'kassie'){
         alert('Uh-oh');
     } else {
-        document. write ('stranger');
+        console. log (' stranger');
     }
 }
+
+userMessage();
 
 
 document. write ('Hi ' + userName + ', lets be friends!');
 
-if (userName == 'rocio'){
-    alert('My master!');
-} else if ( userName == 'kassie'){
-    alert('Uh-oh');
-} else {
-    alert('Welcome');
-}
+// if (userName == 'rocio'){
+//     alert('My master!');
+// } else if ( userName == 'kassie'){
+//     alert('Uh-oh');
+// } else {
+//     alert('Welcome');
+// }
 
 
-confirm ('Ready to look at potatoes?');
-
-if (confirm= true){
-    document. write('Lets do this!');
-} else {
-    document. write('I love potatoes')
-}
-
-function getName(){
-    const userName= prompt('What is your name');
-    return userName;
-}
+   function likePotato(){
+     confirm ('Ready to look at potatoes?');}
+     let y= 1;
+     let x= 0;
+     let theirAnswer= (y, x);
+        if (theirAnswer= 1){
+          document. write ('Lets do this!');
+         } 
+        else if (0);{
+          document. write ('Only potato lovers allowed!');
+        }
+ 
+ likePotato();
