@@ -1,4 +1,20 @@
 'use strict';
 
-console. log("Welcome to my console! We are gonna have some fun");
+console. log("You made it to my console!");
+alert("I hope you are not hungry");
+
+const userName = prompt("What should we call you?");
+console. log (userName);
+
+document. write ('Hi ' + userName + ', lets be friends!');
+
+if (userName == 'rocio'){
+    alert('My master!');
+} else if ( userName == 'kassie'){
+    alert('Uh-oh');
+} else {
+    alert('Welcome');
+}
+
+
 
