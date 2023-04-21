@@ -7,14 +7,17 @@ body {
 * {border: 20px;
 }
 
-
 h1 {
     color: #065535;
     text-align: center;
+    text-size-adjust: 100cm;
 }
 
-nav {
-    border: 20cm;
+nav ul li {
+    align-items: left;
+    display: inline-block;
+    margin-left: 37cm;
+    list-style: none;
 }
 
 li {
@@ -24,6 +27,7 @@ li {
 
 img {
     display: inline-block; 
+    margin-left: 1cm;
     width: 30%;
     height: 300px;
 }
@@ -35,4 +39,13 @@ p {
 
 a {
     color: whitesmoke;
+}
+
+footer {
+    display: block;
+    margin-left: 37cm;
+}
+
+ol {
+    background-color: lightgreen;
 }
