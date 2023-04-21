@@ -48,4 +48,9 @@ ol {
     background-color: lightgreen;
 }
 
+footer ul line {
+    display: inline;
+    margin-left: 35cm;
+}
+
 /* must fix items that are not translating to website */
